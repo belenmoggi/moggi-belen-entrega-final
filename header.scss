@@ -1,0 +1,36 @@
+body header nav div ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+body header nav {
+    margin: 3%;
+    border-style: none;
+  
+  
+}
+
+    body header nav ul li{
+         display: inline-block;
+         text-transform: uppercase;
+         text-align: center;
+         font-size: 1.1rem;
+         color:rgb(55, 69, 85);
+         padding: 2rem;
+         background-color: rgba(250, 128, 114, 0.185);
+}
+
+body header nav ul li a{
+    text-decoration: none;
+    color:rgb(55, 69, 85);
+}
+
+.bauma {
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  
