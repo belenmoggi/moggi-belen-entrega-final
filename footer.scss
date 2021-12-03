@@ -1,9 +1,7 @@
-/*--footer--*/
-
 body footer div {
-    background-color: rgba(112, 128, 144, 0.479);
+    background-color: rgba(150, 81, 73, 0.808);
     background-size: cover;
-    color: thistle;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
     display: flex;
     justify-content: space-between;
@@ -15,10 +13,20 @@ body footer div {
 
 body footer ul {
     list-style: none;
-    align-items: center;
-    text-decoration: none;
+    align-items: center;    
 }
 
-#irArriba {
+
+ #irArriba {
     font-family: 'Abril Fatface', cursive;
+    color:black
+  }
+
+  body footer {
+    font-weight: 100;
+  }
+
+  body footer ul li a {
+    text-decoration: none;
+    color: black;
   }

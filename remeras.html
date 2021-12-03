@@ -32,11 +32,8 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse d-flex flex-row-reverse bd-highlight" id="navbarNavDropdown">
                     <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,7 +42,6 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="tienda.html">ver todo</a></li>
                                 <li><a class="dropdown-item" href="remeras.html">Remeras</a></li>
-                                <li><a class="dropdown-item" href="pollera.html">Shorts-polleras</a></li>
                                 <li><a class="dropdown-item" href="pantalon.html">Pantalones</a></li>
                                 <li><a class="dropdown-item" href="abrigo.html">Abrigo</a></li>
                             </ul>
@@ -68,20 +64,96 @@
     </header>
     <main>
 
-        <section class="main--encabezado">
+        <section class="encabezado">
             <h2>Shop online</h2>
             <p>Bienvenidos a nuestra tienda virtual, en ella vas a encontrar los productos disponibles, con sus
                 respectivos
                 precios, colores y talles. Gracias por elegirnos. </p>
         </section>
-
-        <div>
-            <section class="main--galeria">
-                <img src="img/remera beige.jpeg" class="rounded float-start" alt="remera beige">
-                <img src="img/remera.jpeg" class="rounded float-end" alt="remera">
-                <img src="img/remeragris.jpeg" class="rounded float-start" alt="remeragris">
-            </section>
+<!--tienda remeras-->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/remera beige.jpeg" class="card-img-top" alt="remera beige">
+        <div class="card-body">
+          <h5 class="card-title">Remera Amapola</h5>
+          <p class="card-text">Remera de morley 3/4 color beige. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$1000</small></p>
         </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/remera.jpeg" class="card-img-top" alt="remera">
+        <div class="card-body">
+          <h5 class="card-title">Remera Amapola</h5>
+          <p class="card-text">Remera de morley 3/4 color terracota. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$1000</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/remeragris.jpeg" class="card-img-top" alt="remera gris">
+        <div class="card-body">
+          <h5 class="card-title">Remera Amapola</h5>
+          <p class="card-text">Remera de morley 3/4 color gris. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$1000</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/topblanco.jpeg" class="card-img-top" alt="remera blanca">
+        <div class="card-body">
+          <h5 class="card-title">Remera Emi</h5>
+          <p class="card-text">Crop top de algodón, disponible en blaco,crema negro, gris, lila. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$500</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/remeraverde.jpeg" class="card-img-top" alt="remera verde">
+        <div class="card-body">
+          <h5 class="card-title">Remera Paris</h5>
+          <p class="card-text">Remera batick de algodon, color verde. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$1000</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="./img/remerabote.jpeg" class="card-img-top" alt="remera beige">
+        <div class="card-body">
+          <h5 class="card-title">Remera Lola</h5>
+          <p class="card-text">Remera de modal gamuzado 3/4 color beige. Talle único</p>
+          <p class="card-text-number"><small class="text-muted">$1000</small></p>
+        </div>
+        <div class="card-footer">
+          <a href="https://wa.me/message/SUJJYA6CJC7KL1" class="card-link">Realizar compra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
     </main>
     <footer>
         <div>

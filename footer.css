@@ -1,8 +1,7 @@
-/*--footer--*/
 body footer div {
-  background-color: rgba(112, 128, 144, 0.479);
+  background-color: rgba(150, 81, 73, 0.808);
   background-size: cover;
-  color: thistle;
+  color: black;
   font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,10 +24,19 @@ body footer ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-decoration: none;
 }
 
 #irArriba {
   font-family: 'Abril Fatface', cursive;
+  color: black;
+}
+
+body footer {
+  font-weight: 100;
+}
+
+body footer ul li a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=footer.css.map */

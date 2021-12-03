@@ -7,7 +7,6 @@ body header nav div ul {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin: 5px;
   padding: 5px;
 }
 
@@ -33,13 +32,13 @@ body header nav ul li a {
 
 .bauma {
   font-family: 'Abril Fatface', cursive;
+  color: black;
 }
 
-/*--footer--*/
 body footer div {
-  background-color: slategray;
+  background-color: rgba(150, 81, 73, 0.808);
   background-size: cover;
-  color: thistle;
+  color: black;
   font-size: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,11 +61,20 @@ body footer ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+body footer ul li a {
   text-decoration: none;
+  color: black;
 }
 
 #irArriba {
   font-family: 'Abril Fatface', cursive;
+  color: black;
+}
+
+body footer {
+  font-weight: 100;
 }
 
 body {
@@ -80,10 +88,10 @@ body {
 }
 
 .title {
+  padding: 8px;
   font-size: medium;
   font-family: 'Poppins', sans-serif;
-  background-image: webkit-gradient(linear, left bottom, left top, from(darksalmon), to(pink));
-  background-image: linear-gradient(to top, darksalmon, pink);
+  background-color: rgba(250, 128, 114, 0.404);
   -webkit-animation-name: productos;
           animation-name: productos;
   -webkit-animation-duration: 10s;
@@ -95,35 +103,24 @@ body {
           animation-delay: 5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  text-justify: center;
 }
 
 @-webkit-keyframes productos {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  50% {
-    left: 0px;
-    top: 20px;
+    opacity: 0;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    opacity: 1;
   }
 }
 
 @keyframes productos {
   0% {
-    left: 0px;
-    top: 0px;
-  }
-  50% {
-    left: 0px;
-    top: 20px;
+    opacity: 0;
   }
   100% {
-    left: 0px;
-    top: 0px;
+    opacity: 1;
   }
 }
 
@@ -163,13 +160,13 @@ body main div section img {
   display: flex;
 }
 
-.main--encabezado {
+.encabezado {
   padding: 2%;
   margin: 5%;
   text-align: center;
 }
 
-.main--galeria {
+.galeriat {
   text-transform: uppercase;
   text-align: center;
   font-size: 1.3rem;
@@ -189,25 +186,28 @@ body main div section img {
           transform: scale(1.3);
 }
 
-/*media*/
-@media (min-width: 768 px) {
-  title {
-    display: none;
-  }
-  body header nav {
-    display: inline-block;
-  }
+.card-text {
+  font-weight: 100;
 }
 
-@media (min-width: 992 px) {
-  .galeria {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
+.newcollection {
+  font-size: x-large;
 }
+
+body table {
+  background-color: rgba(250, 128, 114, 0.144);
+}
+
+.encabezado {
+  font-size: large;
+  justify-content: right;
+}
+
+.tablajeans {
+  background-color: rgba(70, 69, 69, 0.137);
+  margin: 10px;
+  justify-content: right;
+}
+
+
 /*# sourceMappingURL=style.css.map */
